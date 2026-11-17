@@ -1,0 +1,10 @@
+{
+  "Version": "0.6.2",
+  "Build": "passed",
+  "ExecutableTests": "blocked_by_windows_application_control",
+  "SearchRegression": "אהלות / source morphology segments",
+  "ExpectedReferences": [
+    "Salmos MT 45:9",
+    "Cântico dos Cânticos 4:14"
+  ]
+}

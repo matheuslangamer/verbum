@@ -1,0 +1,1083 @@
+{
+  "passed": true,
+  "total": 269,
+  "failures": 0,
+  "checks": [
+    {
+      "name": "Tooltip gloss prefers Portuguese over English",
+      "passed": true
+    },
+    {
+      "name": "Tooltip gloss falls back to personal English",
+      "passed": true
+    },
+    {
+      "name": "Tooltip gloss rejects empty placeholders and resolves extended Strong",
+      "passed": true
+    },
+    {
+      "name": "Tooltip gloss does not use unrelated lexical entries",
+      "passed": true
+    },
+    {
+      "name": "Tooltip gloss can fall back to BDB by exact Strong",
+      "passed": true
+    },
+    {
+      "name": "Exit checkpoint is independent of live reading and notes",
+      "passed": true
+    },
+    {
+      "name": "Cancel exit leaves window open and does not write a session",
+      "passed": true
+    },
+    {
+      "name": "Yes exit saves current reading position",
+      "passed": true
+    },
+    {
+      "name": "No exit restores previous position while preserving latest note",
+      "passed": true
+    },
+    {
+      "name": "Failed save on Yes or No prevents exit",
+      "passed": true
+    },
+    {
+      "name": "Compact interface restores sidebar and per-tab option visibility",
+      "passed": true
+    },
+    {
+      "name": "Legacy session retains reading position with compact defaults",
+      "passed": true
+    },
+    {
+      "name": "Document search ignores Portuguese accents",
+      "passed": true
+    },
+    {
+      "name": "Document search ignores Hebrew points without changing source",
+      "passed": true
+    },
+    {
+      "name": "Document exact search retains Hebrew points",
+      "passed": true
+    },
+    {
+      "name": "Document search requires all terms in one section",
+      "passed": true
+    },
+    {
+      "name": "Document excerpt can highlight one query term",
+      "passed": true
+    },
+    {
+      "name": "Document import retains original and indexed text",
+      "passed": true
+    },
+    {
+      "name": "Duplicate document import does not duplicate catalog",
+      "passed": true
+    },
+    {
+      "name": "Removing document hides catalog and search but preserves original",
+      "passed": true
+    },
+    {
+      "name": "Removed document can be restored with same identity",
+      "passed": true
+    },
+    {
+      "name": "Document markers survive reload and partial erasure",
+      "passed": true
+    },
+    {
+      "name": "Document markers do not leak across documents or sections",
+      "passed": true
+    },
+    {
+      "name": "Markdown note renders heading bold and italic",
+      "passed": true
+    },
+    {
+      "name": "Document result opens matching section",
+      "passed": true
+    },
+    {
+      "name": "Document tab retains reading position",
+      "passed": true
+    },
+    {
+      "name": "Session validation accepts library and document tabs",
+      "passed": true
+    },
+    {
+      "name": "Session validation still rejects unknown tools",
+      "passed": true
+    },
+    {
+      "name": "UBS compact reference decodes book chapter verse",
+      "passed": true
+    },
+    {
+      "name": "UBS reference preserves Psalm verse zero",
+      "passed": true
+    },
+    {
+      "name": "Unknown UBS reference is not assigned a guessed book",
+      "passed": true
+    },
+    {
+      "name": "Portuguese accents and case",
+      "passed": true
+    },
+    {
+      "name": "Canonical composed/decomposed equivalence",
+      "passed": true
+    },
+    {
+      "name": "Hebrew vowels and shin dot",
+      "passed": true
+    },
+    {
+      "name": "Hebrew cantillation",
+      "passed": true
+    },
+    {
+      "name": "Different order of Hebrew marks",
+      "passed": true
+    },
+    {
+      "name": "Hebrew combining grapheme joiner",
+      "passed": true
+    },
+    {
+      "name": "Ignore direction formatting",
+      "passed": true
+    },
+    {
+      "name": "Ignore direction formatting inside token",
+      "passed": true
+    },
+    {
+      "name": "Greek accents",
+      "passed": true
+    },
+    {
+      "name": "Greek final sigma and uppercase",
+      "passed": true
+    },
+    {
+      "name": "Preserve distinct Hebrew consonants",
+      "passed": true
+    },
+    {
+      "name": "Preserve final Hebrew letters",
+      "passed": true
+    },
+    {
+      "name": "Maqaf is a boundary",
+      "passed": true
+    },
+    {
+      "name": "Whitespace-only query",
+      "passed": true
+    },
+    {
+      "name": "Whole words do not match substrings",
+      "passed": true
+    },
+    {
+      "name": "Explicit prefix search",
+      "passed": true
+    },
+    {
+      "name": "Suggestions use bounded edit distance",
+      "passed": true
+    },
+    {
+      "name": "Standard chapter counts",
+      "passed": true
+    },
+    {
+      "name": "OSHB adjective retains part of speech after language prefix",
+      "passed": true
+    },
+    {
+      "name": "Portuguese finite Hebrew verb parsing",
+      "passed": true
+    },
+    {
+      "name": "Portuguese construct noun with prefix",
+      "passed": true
+    },
+    {
+      "name": "Infinitives do not invent person gender number",
+      "passed": true
+    },
+    {
+      "name": "Aramaic stem has separate decoding",
+      "passed": true
+    },
+    {
+      "name": "Participles decode state without person",
+      "passed": true
+    },
+    {
+      "name": "Unknown morphology remains visible",
+      "passed": true
+    },
+    {
+      "name": "Pointed form key ignores cantillation not vowels",
+      "passed": true
+    },
+    {
+      "name": "Morphology alignment rejects same Strong with different vowels",
+      "passed": true
+    },
+    {
+      "name": "Morphology alignment rejects different verse context",
+      "passed": true
+    },
+    {
+      "name": "Morphology alignment leaves unavailable source morphology empty",
+      "passed": true
+    },
+    {
+      "name": "Morphology alignment accepts cantillation-only difference",
+      "passed": true
+    },
+    {
+      "name": "Morphology alignment accepts holam written before or on waw",
+      "passed": true
+    },
+    {
+      "name": "Consonant map skips only the differing word",
+      "passed": true
+    },
+    {
+      "name": "Hover lists every segment of the graphic word and marks the hovered one",
+      "passed": true
+    },
+    {
+      "name": "Alignment units separate prefix, stem and suffix",
+      "passed": true
+    },
+    {
+      "name": "Portuguese stem joins inflected forms without touching short words",
+      "passed": true
+    },
+    {
+      "name": "Alignment links a translation word to its original term",
+      "passed": true
+    },
+    {
+      "name": "Alignment answers from the original word to the translation",
+      "passed": true
+    },
+    {
+      "name": "Dock Left preserves tabs notes and active selection",
+      "passed": true
+    },
+    {
+      "name": "Dock Left inserts in expected side",
+      "passed": true
+    },
+    {
+      "name": "Dock Right preserves tabs notes and active selection",
+      "passed": true
+    },
+    {
+      "name": "Dock Right inserts in expected side",
+      "passed": true
+    },
+    {
+      "name": "Dock Top preserves tabs notes and active selection",
+      "passed": true
+    },
+    {
+      "name": "Dock Top inserts in expected side",
+      "passed": true
+    },
+    {
+      "name": "Dock Bottom preserves tabs notes and active selection",
+      "passed": true
+    },
+    {
+      "name": "Dock Bottom inserts in expected side",
+      "passed": true
+    },
+    {
+      "name": "Dock Center preserves tabs notes and active selection",
+      "passed": true
+    },
+    {
+      "name": "Dock closes emptied source without duplicate tabs",
+      "passed": true
+    },
+    {
+      "name": "Same pane single tab edge is safe no-op",
+      "passed": true
+    },
+    {
+      "name": "Dock pointer regions",
+      "passed": true
+    },
+    {
+      "name": "Manual translation link persists exact source target and phrase",
+      "passed": true
+    },
+    {
+      "name": "Manual translation link never crosses translations or searches",
+      "passed": true
+    },
+    {
+      "name": "Changed source or target text invalidates previous annotation",
+      "passed": true
+    },
+    {
+      "name": "Translation link cannot fabricate a phrase absent from verse",
+      "passed": true
+    },
+    {
+      "name": "Editing a translation link replaces rather than duplicates it",
+      "passed": true
+    },
+    {
+      "name": "Undo translation link preserves backup and removes annotation",
+      "passed": true
+    },
+    {
+      "name": "Word study partitions marked and unknown verses without double count",
+      "passed": true
+    },
+    {
+      "name": "Word study does not invent translations for unannotated query",
+      "passed": true
+    },
+    {
+      "name": "Word study excludes stale target annotations from chart",
+      "passed": true
+    },
+    {
+      "name": "Empty word study has no fabricated segments",
+      "passed": true
+    },
+    {
+      "name": "Parallel gloss lookup respects whole words and accents",
+      "passed": true
+    },
+    {
+      "name": "Parallel gloss highlighting preserves original accented word",
+      "passed": true
+    },
+    {
+      "name": "Suggested parallel highlight recognizes supplied verb alternatives and inflections",
+      "passed": true
+    },
+    {
+      "name": "Suggested highlight preserves accented source offsets",
+      "passed": true
+    },
+    {
+      "name": "Suggestion does not highlight unrelated words or function-only gloss",
+      "passed": true
+    },
+    {
+      "name": "Inflection suggestions require a verbal source analysis",
+      "passed": true
+    },
+    {
+      "name": "Infinitive por does not highlight the preposition por",
+      "passed": true
+    },
+    {
+      "name": "Gloss cooccurrence categories may overlap without creating lexical links",
+      "passed": true
+    },
+    {
+      "name": "Word study settings survive session serialization",
+      "passed": true
+    },
+    {
+      "name": "Existing markers without kind remain background highlights",
+      "passed": true
+    },
+    {
+      "name": "Font color persists separately from background and splits partial recoloring",
+      "passed": true
+    },
+    {
+      "name": "Removing font color preserves background and unselected font spans",
+      "passed": true
+    },
+    {
+      "name": "Custom RGB survives reload and removal of background",
+      "passed": true
+    },
+    {
+      "name": "Font colors reject malformed values and accept requested palette",
+      "passed": true
+    },
+    {
+      "name": "Colored marker persists exact selected source text",
+      "passed": true
+    },
+    {
+      "name": "Changing marker color preserves both unselected sides",
+      "passed": true
+    },
+    {
+      "name": "Removing a marker clears only selected offsets",
+      "passed": true
+    },
+    {
+      "name": "Markers do not transfer to changed text or another edition",
+      "passed": true
+    },
+    {
+      "name": "Hebrew markers preserve vowel and consonant spans",
+      "passed": true
+    },
+    {
+      "name": "Unpointed Hebrew finds all original variants",
+      "passed": true
+    },
+    {
+      "name": "Hebrew exact hits ranked first",
+      "passed": true
+    },
+    {
+      "name": "Pointed query finds unpointed text",
+      "passed": true
+    },
+    {
+      "name": "Exact mode preserves Hebrew points",
+      "passed": true
+    },
+    {
+      "name": "Exact mode canonical ordering",
+      "passed": true
+    },
+    {
+      "name": "Portuguese accent-insensitive matching",
+      "passed": true
+    },
+    {
+      "name": "Portuguese exact mode",
+      "passed": true
+    },
+    {
+      "name": "Multiple words use same-entry AND",
+      "passed": true
+    },
+    {
+      "name": "Whole-word default",
+      "passed": true
+    },
+    {
+      "name": "Prefix mode includes derivations",
+      "passed": true
+    },
+    {
+      "name": "Greek query without accent",
+      "passed": true
+    },
+    {
+      "name": "Search never changes original text",
+      "passed": true
+    },
+    {
+      "name": "Highlight spans preserve accented original",
+      "passed": true
+    },
+    {
+      "name": "Cancellation does not return stale results",
+      "passed": true
+    },
+    {
+      "name": "Guide parses same-chapter range and preserves native MT Joel four",
+      "passed": true
+    },
+    {
+      "name": "Guide rejects reversed range without changing reading reference",
+      "passed": true
+    },
+    {
+      "name": "Guide whole chapter includes exact native bounds",
+      "passed": true
+    },
+    {
+      "name": "Guide accepts Greek passage and rejects OT in Greek source",
+      "passed": true
+    },
+    {
+      "name": "MACULA Hebrew actual Joel chapter includes all twenty verses",
+      "passed": true
+    },
+    {
+      "name": "MACULA occurrence gloss resolves screenshot tell verb",
+      "passed": true
+    },
+    {
+      "name": "MACULA proper name Joel has occurrence-linked English gloss",
+      "passed": true
+    },
+    {
+      "name": "MACULA split suffixes align to complete native word",
+      "passed": true
+    },
+    {
+      "name": "MACULA rejects changed consonantal sequence instead of guessing by Strong",
+      "passed": true
+    },
+    {
+      "name": "MACULA retains vowel distinctions after matching consonants",
+      "passed": true
+    },
+    {
+      "name": "MACULA Greek supplies real word gloss and parsing for logos",
+      "passed": true
+    },
+    {
+      "name": "MACULA Greek class labels support verb filters",
+      "passed": true
+    },
+    {
+      "name": "Source Greek text and native annotations remain unchanged",
+      "passed": true
+    },
+    {
+      "name": "MACULA Greek frequency index counts lemma occurrences",
+      "passed": true
+    },
+    {
+      "name": "HOTTP maps Joel 1:9 to real alternatives and committee ratings",
+      "passed": true
+    },
+    {
+      "name": "HOTTP does not attach nearby note to Joel 1:1",
+      "passed": true
+    },
+    {
+      "name": "Missing exegesis source is an explicit empty result",
+      "passed": true
+    },
+    {
+      "name": "Guide state restores range filters expansion and scroll",
+      "passed": true
+    },
+    {
+      "name": "Passage note anchors distinguish edition and range without changing notes",
+      "passed": true
+    },
+    {
+      "name": "All 1189 MACULA chapter indices preserve unique words and valid syntax members",
+      "passed": true
+    },
+    {
+      "name": "Inline note marker opens the note immediately after the exact word before punctuation",
+      "passed": true
+    },
+    {
+      "name": "Hiding annotations renders the original verse with no note marker",
+      "passed": true
+    },
+    {
+      "name": "Bible note toggle hides markers per reader",
+      "passed": true
+    },
+    {
+      "name": "Reader exposes four selectors and seven direct actions at 170\u2013820 px",
+      "passed": true
+    },
+    {
+      "name": "Reader direct font and interlinear actions remain functional",
+      "passed": true
+    },
+    {
+      "name": "Reader adapts whole toolbar groups by available width",
+      "passed": true
+    },
+    {
+      "name": "Theme switches existing brushes light dark light without recreating reader",
+      "passed": true
+    },
+    {
+      "name": "Theme does not change custom text marker colors",
+      "passed": true
+    },
+    {
+      "name": "All bundled Lucide icons load offline as WPF vectors",
+      "passed": true
+    },
+    {
+      "name": "Both themes provide readable body muted text and primary button contrast",
+      "passed": true
+    },
+    {
+      "name": "Note links retain edition native reference note identity and book section",
+      "passed": true
+    },
+    {
+      "name": "Note links reject local files scripts traversal unknown hosts and invalid section",
+      "passed": true
+    },
+    {
+      "name": "Notes catalog and editor state survive session serialization",
+      "passed": true
+    },
+    {
+      "name": "Deleting notes moves latest content into restorable trash",
+      "passed": true
+    },
+    {
+      "name": "Trashed note cannot resurrect from saved layout or exit checkpoint",
+      "passed": true
+    },
+    {
+      "name": "Restoring notes retains identity links title and exact Markdown",
+      "passed": true
+    },
+    {
+      "name": "Permanent deletion removes trash JSON and Markdown and blocks stale sessions",
+      "passed": true
+    },
+    {
+      "name": "Word annotation round-trips the exact repeated word and rejects changed verse text",
+      "passed": true
+    },
+    {
+      "name": "Linked hashtag survives Markdown rendering and resolves to its word annotation",
+      "passed": true
+    },
+    {
+      "name": "Graph includes shared Unicode hashtags and ignores code and link destinations",
+      "passed": true
+    },
+    {
+      "name": "Note graph uses real directed links excludes code and duplicate edges",
+      "passed": true
+    },
+    {
+      "name": "Opening visual mode without editing preserves exact Markdown including tables fences and CRLF",
+      "passed": true
+    },
+    {
+      "name": "Visual editing preserves untouched unsupported Markdown and internal links",
+      "passed": true
+    },
+    {
+      "name": "Visual plain text does not accidentally become a Markdown heading",
+      "passed": true
+    },
+    {
+      "name": "Visual formatting serializes bold text to Markdown",
+      "passed": true
+    },
+    {
+      "name": "Selected word retains independent highlighter and font color through Markdown",
+      "passed": true
+    },
+    {
+      "name": "Highlight markup does not invent graph tags",
+      "passed": true
+    },
+    {
+      "name": "Double-equals highlights render in the preview",
+      "passed": true
+    },
+    {
+      "name": "Editing a restored colored paragraph preserves its colors",
+      "passed": true
+    },
+    {
+      "name": "Trash and active notes share the visible navigation menu and search list",
+      "passed": true
+    },
+    {
+      "name": "Quote retains accent after a Markdown round trip",
+      "passed": true
+    },
+    {
+      "name": "Note information distinguishes links and passages and handles undated older notes",
+      "passed": true
+    },
+    {
+      "name": "Info actions append passage Markdown and store a tag",
+      "passed": true
+    },
+    {
+      "name": "Normal mode exposes editable formatted text without Markdown source",
+      "passed": true
+    },
+    {
+      "name": "Toolbar palettes restore selected word after focus leaves the editor",
+      "passed": true
+    },
+    {
+      "name": "Normal mode inserts persistent internal links",
+      "passed": true
+    },
+    {
+      "name": "Switching normal and MD modes retains edited content and mode",
+      "passed": true
+    },
+    {
+      "name": "Markdown renders safe links and routes clicks without launching on render",
+      "passed": true
+    },
+    {
+      "name": "Editor formats selection inserts internal link and keeps surrounding text",
+      "passed": true
+    },
+    {
+      "name": "Editor preview mode persists and exposes clickable link",
+      "passed": true
+    },
+    {
+      "name": "Actual ALM1911 import",
+      "passed": true
+    },
+    {
+      "name": "John 3:16 reference parsing",
+      "passed": true
+    },
+    {
+      "name": "Reference lookup preserves actual verse",
+      "passed": true
+    },
+    {
+      "name": "Missing reference is not invented",
+      "passed": true
+    },
+    {
+      "name": "MENS range 1\u20132 covers verse 2",
+      "passed": true
+    },
+    {
+      "name": "NTLH 2 Samuel discrepancy detected",
+      "passed": true
+    },
+    {
+      "name": "NTLH disputed book never links by fake verse number",
+      "passed": true
+    },
+    {
+      "name": "Actual Bible accent-insensitive search",
+      "passed": true
+    },
+    {
+      "name": "Layout and per-tab state round trip",
+      "passed": true
+    },
+    {
+      "name": "BHS resource covers 39 books in native versification",
+      "passed": true
+    },
+    {
+      "name": "BHS first lexical segment retains prefix and no inserted space",
+      "passed": true
+    },
+    {
+      "name": "BHS Genesis 1:1 Strong H7225",
+      "passed": true
+    },
+    {
+      "name": "Strong English lexicon present",
+      "passed": true
+    },
+    {
+      "name": "BDB keeps distinct source entries",
+      "passed": true
+    },
+    {
+      "name": "UBS Portuguese definitions and attribution present",
+      "passed": true
+    },
+    {
+      "name": "Multiple UBS senses are preserved",
+      "passed": true
+    },
+    {
+      "name": "Additional lexicon finds unpointed Hebrew and alternate Strong codes",
+      "passed": true
+    },
+    {
+      "name": "Lexicon source and record selection persist",
+      "passed": true
+    },
+    {
+      "name": "BHS bara receives occurrence morphology from OSHB",
+      "passed": true
+    },
+    {
+      "name": "BHS prefix receives separate segment morphology",
+      "passed": true
+    },
+    {
+      "name": "BHS occurrence enrichment covers substantial corpus",
+      "passed": true
+    },
+    {
+      "name": "Hebrew lexicon includes every supplied entry once",
+      "passed": true
+    },
+    {
+      "name": "Hebrew lexicon numeric and suffixed Strong resolve same base entry",
+      "passed": true
+    },
+    {
+      "name": "Hebrew lexicon ignores vowels when searching real lemma",
+      "passed": true
+    },
+    {
+      "name": "Hebrew lexicon indexes inflected forms from actual corpus",
+      "passed": true
+    },
+    {
+      "name": "Hebrew lexicon separates extended codes without invented definitions",
+      "passed": true
+    },
+    {
+      "name": "Hebrew lexicon English definition lookup",
+      "passed": true
+    },
+    {
+      "name": "Hebrew lexicon full empty filter and absent code",
+      "passed": true
+    },
+    {
+      "name": "Lexicon tab query and selection persist",
+      "passed": true
+    },
+    {
+      "name": "Source revision and attribution retained",
+      "passed": true
+    },
+    {
+      "name": "WLC native MT stays distinct",
+      "passed": true
+    },
+    {
+      "name": "BHS native MT never synchronizes by identical Portuguese reference",
+      "passed": true
+    },
+    {
+      "name": "Joel preserves all four Hebrew chapters",
+      "passed": true
+    },
+    {
+      "name": "Joel 3:1 maps to Portuguese 2:28 without relabeling Hebrew",
+      "passed": true
+    },
+    {
+      "name": "Joel 4:1 maps to Portuguese chapter three",
+      "passed": true
+    },
+    {
+      "name": "Psalms retain native verse one titles",
+      "passed": true
+    },
+    {
+      "name": "Joel forward and reverse map across all chapter boundaries",
+      "passed": true
+    },
+    {
+      "name": "Canticles 7:1 links to ARA 6:13 in both directions",
+      "passed": true
+    },
+    {
+      "name": "Canticles chapter seven offset and chapter eight identity",
+      "passed": true
+    },
+    {
+      "name": "Psalm three heading never points to Portuguese verse one",
+      "passed": true
+    },
+    {
+      "name": "Psalm three body verse maps past heading both directions",
+      "passed": true
+    },
+    {
+      "name": "Psalm fifty one retains two separate heading verses",
+      "passed": true
+    },
+    {
+      "name": "Psalm fifty one body verse maps with offset two both directions",
+      "passed": true
+    },
+    {
+      "name": "Psalms without headings are never shifted by generic rule",
+      "passed": true
+    },
+    {
+      "name": "Partial heading Psalm fifty does not hide body verse",
+      "passed": true
+    },
+    {
+      "name": "A partial heading word hit is identified as absent Portuguese superscription",
+      "passed": true
+    },
+    {
+      "name": "Psalm thirteen one-to-many linkage keeps both Portuguese verses",
+      "passed": true
+    },
+    {
+      "name": "Psalm thirteen reverse map accepts either part",
+      "passed": true
+    },
+    {
+      "name": "WLC links use the same explicit native reference map",
+      "passed": true
+    },
+    {
+      "name": "All superscription-only verses have no foreign numeric mapping",
+      "passed": true
+    },
+    {
+      "name": "OSHB word-level morphology retained",
+      "passed": true
+    },
+    {
+      "name": "OSHB qere notes retained",
+      "passed": true
+    },
+    {
+      "name": "NT canonical book index preserved",
+      "passed": true
+    },
+    {
+      "name": "SBLGNT verse numbers preserved",
+      "passed": true
+    },
+    {
+      "name": "SBLGNT apparatus tied to John 1:18",
+      "passed": true
+    },
+    {
+      "name": "Greek Strong not fabricated",
+      "passed": true
+    },
+    {
+      "name": "All original word offsets match immutable displayed text",
+      "passed": true
+    },
+    {
+      "name": "Unpointed aloes finds both BHS segments after waw prefix",
+      "passed": true
+    },
+    {
+      "name": "Unpointed aloes finds native OSHB segments",
+      "passed": true
+    },
+    {
+      "name": "Segment search highlights actual pointed source without changing text",
+      "passed": true
+    },
+    {
+      "name": "Exact search still preserves signs and graphic word boundaries",
+      "passed": true
+    },
+    {
+      "name": "Pointed and unpointed segmented queries have same intelligent result",
+      "passed": true
+    },
+    {
+      "name": "Source OSHB segmentation spans remain exact",
+      "passed": true
+    },
+    {
+      "name": "Hebrew lexicon finds inflected aloes without accents",
+      "passed": true
+    },
+    {
+      "name": "Search Strong across original corpus",
+      "passed": true
+    },
+    {
+      "name": "Conventional Strong includes suffixed lemma subdivisions",
+      "passed": true
+    },
+    {
+      "name": "Search lemma uses provided annotations",
+      "passed": true
+    },
+    {
+      "name": "Real unaccented Greek finds John 1:1",
+      "passed": true
+    },
+    {
+      "name": "Real unpointed Hebrew finds pointed Genesis 1:1",
+      "passed": true
+    },
+    {
+      "name": "Lexical tab state roundtrip",
+      "passed": true
+    },
+    {
+      "name": "Screenshot Portuguese parallels receive candidate highlights from source glosses",
+      "passed": true
+    },
+    {
+      "name": "Source contextual gloss disambiguates gave from delivered in Genesis 14:20",
+      "passed": true
+    },
+    {
+      "name": "Contextual parallel renderer covers all four screenshot examples",
+      "passed": true
+    },
+    {
+      "name": "Portuguese glosses available without manual translation links",
+      "passed": true
+    },
+    {
+      "name": "Personal parsing uses source chapter map for native Joel four",
+      "passed": true
+    },
+    {
+      "name": "Screenshot Joel 1:3 has English gloss without personal parsing or external lexicons",
+      "passed": true
+    },
+    {
+      "name": "Screenshot Joel 1:1 name has English gloss without parsing",
+      "passed": true
+    },
+    {
+      "name": "Actual tooltip includes both screenshot glosses before Opened event",
+      "passed": true
+    },
+    {
+      "name": "User parsing imports large real corpus",
+      "passed": true
+    },
+    {
+      "name": "User parsing matches pointed form and Strong",
+      "passed": true
+    },
+    {
+      "name": "User parsing does not map chapter ordinal to verse",
+      "passed": true
+    },
+    {
+      "name": "User parsing rejects wrong Strong",
+      "passed": true
+    },
+    {
+      "name": "Every actual OSHB code decodes without throwing",
+      "passed": true
+    },
+    {
+      "name": "Result spans preserve full accented original",
+      "passed": true
+    },
+    {
+      "name": "Late match beyond old excerpt limit remains boldable",
+      "passed": true
+    },
+    {
+      "name": "Book filtering retains only requested canonical book",
+      "passed": true
+    }
+  ]
+}

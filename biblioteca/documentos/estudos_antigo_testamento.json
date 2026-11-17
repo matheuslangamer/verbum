@@ -1,0 +1,30 @@
+{
+  "id": "DOC-COMENT-AT",
+  "titulo": "Estudos no Antigo Testamento: Criação, Shemá e o Servo Sofredor",
+  "autor": "Acervo Teológico SOMA",
+  "categoria": "Exegese do Antigo Testamento",
+  "idioma": "PT-BR",
+  "ano": "2026",
+  "descricao": "Comentário filológico do Texto Massorético (WLC) e Septuaginta sobre Gn 1:1-2, Dt 6:4, Sl 23:1 e Is 53:5.",
+  "capitulos": [
+    {
+      "id": "at-1",
+      "titulo": "1. Bereshit Bara Elohim: Sintaxe e Cosmologia de Gênesis 1:1-2",
+      "ref": "GN 1:1",
+      "conteudo": "O verbo hebraico בָּרָא (bārā’, Qal Perfeito 3ms) no Antigo Testamento possui exclusivamente Deus (אֱלֹהִים) como sujeito e nunca menciona matéria preexistente, indicando criação soberana e inaugural. O par הַשָּׁמַיִם וְאֵת הָאָרֶץ ('os céus e a terra') funciona como um merismo semítico para a totalidade do cosmos.\n\nNo v. 2, a expressão aliterativa תֹהוּ וָבֹהוּ (tōhū wāḇōhū) descreve a terra ainda não preparada para habitação, enquanto o particípio Piel מְרַחֶפֶת (məraḥep̄eṯ) retrata a presença vivificadora do Espírito de Deus (רוּחַ אֱלֹהִים) pairando como águia sobre o ninho (cf. Dt 32:11)."
+    },
+    {
+      "id": "at-2",
+      "titulo": "2. O Shemá Israel (Deuteronômio 6:4): YHWH Echad",
+      "ref": "DT 6:4",
+      "conteudo": "A confissão central de Israel (שְׁמַע יִשְׂרָאֵל יְהוָה אֱלֹהֵינוּ יְהוָה אֶחָד) é formada por duas orações nominais justapostas. O adjetivo numeral אֶחָד (’eḥāḏ) afirma tanto a unicidade exclusiva de YHWH contra o politeísmo cananeu quanto a integridade indivisível do seu caráter e aliança."
+    },
+    {
+      "id": "at-3",
+      "titulo": "3. Os Particípios Passivos Intensivos (Poal/Pual) em Isaías 53:5",
+      "ref": "IS 53:5",
+      "conteudo": "Em Isaías 53:5, o profeta emprega dois particípios passivos de troncos intensivos: מְחֹלָל (məḥōlāl, Poal de חָלַל, 'traspassado/perfurado') e מְדֻכָּא (məḏukkā’, Pual de דָּכָא, 'esmagado/quebrantado'). A preposição מִן (min) em מִפְּשָׁעֵנוּ e מֵעֲוֹנֹתֵינוּ tem valor causal ('por causa das nossas transgressões e iniquidades'), culminando no Niphal perfeito נִרְפָּא־לָנוּ ('fomos sarados')."
+    }
+  ]
+}
+

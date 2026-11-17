@@ -1,0 +1,6 @@
+{
+  "Version": "0.6.1",
+  "Build": "passed",
+  "ExecutableTest": "blocked_by_windows_application_control",
+  "NewChecksExecuted": false
+}

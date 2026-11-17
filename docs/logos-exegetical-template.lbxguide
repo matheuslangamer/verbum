@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<guide-template name="ExegeticalGuide" kind="biblereference" version="1">
+	<sections>
+		<section name="MyContent" version="1">
+			<data />
+		</section>
+		<section name="TextualVariants" version="1">
+			<data />
+		</section>
+		<section name="WordByWord" version="1">
+			<data>
+				<settings ShowAllWords="true" LemmaOccurrenceCountThreshold="30" ShowAllPartsOfSpeech="false" />
+				<selected-parts-of-speech>
+					<part-of-speech name='Verb' />
+					<part-of-speech name='Noun' />
+					<part-of-speech name='Adjective' />
+					<part-of-speech name='Adverb' />
+				</selected-parts-of-speech>
+			</data>
+		</section>
+		<section name="GrammaticalConstructions" version="1">
+			<data />
+		</section>
+		<section name="ImportantWords2" version="1">
+			<data />
+		</section>
+		<section name="LemmasInPassage" version="1">
+			<data />
+		</section>
+		<section name="ImportantPassages" version="1">
+			<data />
+		</section>
+		<section name="AncientLiterature" version="1">
+			<data />
+		</section>
+		<section name="Commentaries" version="1">
+			<data />
+		</section>
+		<section name="Journals" version="1">
+			<data />
+		</section>
+		<section name="Grammars" version="1">
+			<data>
+				<additional-data />
+			</data>
+		</section>
+		<section name="Visualizations" version="1">
+			<data />
+		</section>
+	</sections>
+</guide-template>

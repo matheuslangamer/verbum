@@ -1,0 +1,751 @@
+{
+  "scope": "Inspeção estática; não observação da instância em execução.",
+  "records": [
+    {
+      "evidence_id": "ev_1bbd7bfa582abf3d9f916f6aedc274f78dcffe5e5d2a62963e4bec6eb32007bc",
+      "subject": {
+        "name": "Faithlife.ResourceToolbarHost.dll",
+        "digest": {
+          "sha256": "69fc4103a4b511e139877c93d96db469a85f7dea44668c26e524e60bdfd95dcd"
+        },
+        "local_path": "C:\\Users\\mathe\\AppData\\Local\\Logos\\System\\Faithlife.ResourceToolbarHost.dll",
+        "format": "pe",
+        "architecture": "x86"
+      },
+      "provider": {
+        "id": "rea-analysis-view",
+        "name": "REA analysis view projection",
+        "version": "1"
+      },
+      "analysis_profile": null,
+      "predicate_type": "rea.analysis-view",
+      "operation": "inspect_analysis_view",
+      "parameters": {
+        "parent_evidence_id": "ev_9129af4bb041819a3b325453321979e9e3144232f912bef92d9d51f6d29f4a60",
+        "view": {
+          "kind": "managed",
+          "collection": "resources",
+          "offset": 0,
+          "limit": 50
+        }
+      },
+      "raw_result": null,
+      "normalized_result": {
+        "kind": "managed",
+        "view": {
+          "kind": "managed",
+          "collection": "resources",
+          "offset": 0,
+          "limit": 50
+        },
+        "item": [
+          {
+            "name": "dist/main.d.ts",
+            "flags": 1,
+            "visibility": "public",
+            "implementation_token": null,
+            "embedded": true,
+            "declared_offset": 0,
+            "data_length": 366,
+            "data_sha256": "c90af132e0fb5eb344c557077f1c65ba28c1df0e6ade2e6216ace5684ad1599c",
+            "token": "0x28000001",
+            "row_offset": 1102
+          },
+          {
+            "name": "dist/ReferenceLink.d.ts",
+            "flags": 1,
+            "visibility": "public",
+            "implementation_token": null,
+            "embedded": true,
+            "declared_offset": 376,
+            "data_length": 203,
+            "data_sha256": "fc7c8fe378887166326d86f80fa88e648f4340fc81546651022bbf404da77010",
+            "token": "0x28000002",
+            "row_offset": 1114
+          },
+          {
+            "name": "dist/DocumentLink.d.ts",
+            "flags": 1,
+            "visibility": "public",
+            "implementation_token": null,
+            "embedded": true,
+            "declared_offset": 584,
+            "data_length": 226,
+            "data_sha256": "ac2de303aba734ff03282d1dabdddf8f753f3d2521029acbbce57040e0cc1497",
+            "token": "0x28000003",
+            "row_offset": 1126
+          },
+          {
+            "name": "dist/digital-library.d.ts",
+            "flags": 1,
+            "visibility": "public",
+            "implementation_token": null,
+            "embedded": true,
+            "declared_offset": 816,
+            "data_length": 54,
+            "data_sha256": "46a0b34e1264c4d25ca6646ff0e6cfaa7275ea1ae5a6bc23d4dfd84edf2f2b2e",
+            "token": "0x28000004",
+            "row_offset": 1138
+          },
+          {
+            "name": "dist/tooltip-main.d.ts",
+            "flags": 1,
+            "visibility": "public",
+            "implementation_token": null,
+            "embedded": true,
+            "declared_offset": 880,
+            "data_length": 11,
+            "data_sha256": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+            "token": "0x28000005",
+            "row_offset": 1150
+          },
+          {
+            "name": "dist/motionFeatures.d.ts",
+            "flags": 1,
+            "visibility": "public",
+            "implementation_token": null,
+            "embedded": true,
+            "declared_offset": 896,
+            "data_length": 74,
+            "data_sha256": "64a380e6f01647ed81b941527964a4052a6ddfd8f0a8aef49630d90d48df5433",
+            "token": "0x28000006",
+            "row_offset": 1162
+          },
+          {
+            "name": "dist/ReferenceNavigator.d.ts",
+            "flags": 1,
+            "visibility": "public",
+            "implementation_token": null,
+            "embedded": true,
+            "declared_offset": 976,
+            "data_length": 1195,
+            "data_sha256": "1f53739b5acb372358bcb98baf77bcda34ceb3f4c80d9eae5c356617dcd59907",
+            "token": "0x28000007",
+            "row_offset": 1174
+          },
+          {
+            "name": "dist/interop.d.ts",
+            "flags": 1,
+            "visibility": "public",
+            "implementation_token": null,
+            "embedded": true,
+            "declared_offset": 2176,
+            "data_length": 14855,
+            "data_sha256": "87774fffe9f2c8851fdb915e61bb49580e5f8d0ebc18b06bb10ddbd16c3f1718",
+            "token": "0x28000008",
+            "row_offset": 1186
+          },
+          {
+            "name": "dist/resource-toolbar-host.js",
+            "flags": 1,
+            "visibility": "public",
+            "implementation_token": null,
+            "embedded": true,
+            "declared_offset": 17040,
+            "data_length": 231499,
+            "data_sha256": "c93bdd4528d67bf05c04b1e76a7e94cd9c1600e8818b9b1a20d278489af241c8",
+            "token": "0x28000009",
+            "row_offset": 1198
+          },
+          {
+            "name": "dist/resources-408c05f3.js",
+            "flags": 1,
+            "visibility": "public",
+            "implementation_token": null,
+            "embedded": true,
+            "declared_offset": 248544,
+            "data_length": 26896,
+            "data_sha256": "66d2061b6f26a4117ea53caebb02ad8cec42b75fbb1388bcb813603c0c9b53d1",
+            "token": "0x2800000a",
+            "row_offset": 1210
+          },
+          {
+            "name": "dist/resources-65fb0a03.js",
+            "flags": 1,
+            "visibility": "public",
+            "implementation_token": null,
+            "embedded": true,
+            "declared_offset": 275448,
+            "data_length": 27730,
+            "data_sha256": "f0809485fd87bfc676bea923f077a79c6274ee6dfc3cbfaeeababb03a37c01d0",
+            "token": "0x2800000b",
+            "row_offset": 1222
+          },
+          {
+            "name": "dist/resources-12545cb9.js",
+            "flags": 1,
+            "visibility": "public",
+            "implementation_token": null,
+            "embedded": true,
+            "declared_offset": 303184,
+            "data_length": 25182,
+            "data_sha256": "202ca7c1bac1ca7a94570171fdc896f43977021879896f03752fb51f2b774602",
+            "token": "0x2800000c",
+            "row_offset": 1234
+          },
+          {
+            "name": "dist/resources-667663e4.js",
+            "flags": 1,
+            "visibility": "public",
+            "implementation_token": null,
+            "embedded": true,
+            "declared_offset": 328376,
+            "data_length": 25182,
+            "data_sha256": "f56769d4f8f7552f0dcd0580565f73e9c41a744cb8acbad5a1d95a3ae36ab4f7",
+            "token": "0x2800000d",
+            "row_offset": 1246
+          },
+          {
+            "name": "dist/tooltip-host.js",
+            "flags": 1,
+            "visibility": "public",
+            "implementation_token": null,
+            "embedded": true,
+            "declared_offset": 353568,
+            "data_length": 9839,
+            "data_sha256": "85bf9db2bb301e2705398ef458ee10e2b74c126c1ac19aff5931e939489d135e",
+            "token": "0x2800000e",
+            "row_offset": 1258
+          },
+          {
+            "name": "dist/resources-142a7136.js",
+            "flags": 1,
+            "visibility": "public",
+            "implementation_token": null,
+            "embedded": true,
+            "declared_offset": 363416,
+            "data_length": 25182,
+            "data_sha256": "80a0c54a43e7331f35ee2bc60170e91694175f522dbbe7c1134a3ec778c0a529",
+            "token": "0x2800000f",
+            "row_offset": 1270
+          },
+          {
+            "name": "dist/resources-4464fd21.js",
+            "flags": 1,
+            "visibility": "public",
+            "implementation_token": null,
+            "embedded": true,
+            "declared_offset": 388608,
+            "data_length": 27950,
+            "data_sha256": "1dfd7e2fabf305e7298e374bb1749db28c552f90e54f8f2fd0c7a9bcd1a8893a",
+            "token": "0x28000010",
+            "row_offset": 1282
+          },
+          {
+            "name": "dist/resources-421d5163.js",
+            "flags": 1,
+            "visibility": "public",
+            "implementation_token": null,
+            "embedded": true,
+            "declared_offset": 416568,
+            "data_length": 27647,
+            "data_sha256": "017f16ff53ccabbdaeba6ae916c6fd005bf2841a9e14bbd8dcdef9e07b99f180",
+            "token": "0x28000011",
+            "row_offset": 1294
+          },
+          {
+            "name": "dist/interop-b42448ca.js",
+            "flags": 1,
+            "visibility": "public",
+            "implementation_token": null,
+            "embedded": true,
+            "declared_offset": 444224,
+            "data_length": 3618684,
+            "data_sha256": "09a4281ad956c433cf4976bb8d509f6f2fa74191a1765e90aefaf895e7c87c70",
+            "token": "0x28000012",
+            "row_offset": 1306
+          },
+          {
+            "name": "dist/resources-fe9f26b4.js",
+            "flags": 1,
+            "visibility": "public",
+            "implementation_token": null,
+            "embedded": true,
+            "declared_offset": 4062912,
+            "data_length": 25156,
+            "data_sha256": "b92b605b8e41adea9c55e40c8f0f140650766193f0f78fa3904d983aa888f2a4",
+            "token": "0x28000013",
+            "row_offset": 1318
+          },
+          {
+            "name": "dist/resources-5b5500d0.js",
+            "flags": 1,
+            "visibility": "public",
+            "implementation_token": null,
+            "embedded": true,
+            "declared_offset": 4088072,
+            "data_length": 27976,
+            "data_sha256": "461cbe6e604741c4b09d0c0d7a3cc5d0f5ab85b88f7289ae723741c66f38c6a0",
+            "token": "0x28000014",
+            "row_offset": 1330
+          },
+          {
+            "name": "dist/resources-26b6c5a3.js",
+            "flags": 1,
+            "visibility": "public",
+            "implementation_token": null,
+            "embedded": true,
+            "declared_offset": 4116056,
+            "data_length": 25170,
+            "data_sha256": "ddb91d86f4396858dcaf9c8a15f621be23ec16b7832bac8e9990385cf47edaad",
+            "token": "0x28000015",
+            "row_offset": 1342
+          },
+          {
+            "name": "dist/motionFeatures-2ab268a5.js",
+            "flags": 1,
+            "visibility": "public",
+            "implementation_token": null,
+            "embedded": true,
+            "declared_offset": 4141232,
+            "data_length": 83372,
+            "data_sha256": "70519d2a9d66826cdbec9843fd93a05baa585bdf57b205d79345e9b26d7b1ff9",
+            "token": "0x28000016",
+            "row_offset": 1354
+          },
+          {
+            "name": "dist/remote-dropdown-target-index.html",
+            "flags": 1,
+            "visibility": "public",
+            "implementation_token": null,
+            "embedded": true,
+            "declared_offset": 4224608,
+            "data_length": 398,
+            "data_sha256": "ba0899fbb0805ad8fe8449ab6f727bcaa4361c4c5ce63ec041e9a5555f0c2210",
+            "token": "0x28000017",
+            "row_offset": 1366
+          },
+          {
+            "name": "dist/index.html",
+            "flags": 1,
+            "visibility": "public",
+            "implementation_token": null,
+            "embedded": true,
+            "declared_offset": 4225016,
+            "data_length": 607,
+            "data_sha256": "a1eacc2d9605fde555b7ee5c469607619a44e63c983d65af680fe0e93c61b269",
+            "token": "0x28000018",
+            "row_offset": 1378
+          },
+          {
+            "name": "dist/tooltip-index.html",
+            "flags": 1,
+            "visibility": "public",
+            "implementation_token": null,
+            "embedded": true,
+            "declared_offset": 4225632,
+            "data_length": 562,
+            "data_sha256": "4b17cbc4bfa6ee1acd56e9674793b733c3a85b469450cebb7fdb9f093d28c462",
+            "token": "0x28000019",
+            "row_offset": 1390
+          },
+          {
+            "name": "dist/licenses.json",
+            "flags": 1,
+            "visibility": "public",
+            "implementation_token": null,
+            "embedded": true,
+            "declared_offset": 4226200,
+            "data_length": 24590,
+            "data_sha256": "b43195137abeceea0fd308047e09aa934cc8da6ee38436c28695cdb945261986",
+            "token": "0x2800001a",
+            "row_offset": 1402
+          },
+          {
+            "name": "dist/style.css",
+            "flags": 1,
+            "visibility": "public",
+            "implementation_token": null,
+            "embedded": true,
+            "declared_offset": 4250800,
+            "data_length": 442780,
+            "data_sha256": "2a401e17b01f150153c13f6f26bedc9701d36684925674ee5adb64725c3d0556",
+            "token": "0x2800001b",
+            "row_offset": 1414
+          }
+        ],
+        "parent_evidence_id": "ev_9129af4bb041819a3b325453321979e9e3144232f912bef92d9d51f6d29f4a60",
+        "parent_operation": "inspect_managed_artifact",
+        "parent_digest": "9129af4bb041819a3b325453321979e9e3144232f912bef92d9d51f6d29f4a60",
+        "view_digest": "3ac38010b8596f4e6acb1979e6e4fd4bf12da1ac9731a7773e6a8b543ceb932e",
+        "artifact": {
+          "path": "C:\\Users\\mathe\\AppData\\Local\\Logos\\System\\Faithlife.ResourceToolbarHost.dll",
+          "sha256": "69fc4103a4b511e139877c93d96db469a85f7dea44668c26e524e60bdfd95dcd"
+        },
+        "coverage": {
+          "status": "page",
+          "examined": 27,
+          "total": 27,
+          "next_offset": null,
+          "exhausted": true
+        },
+        "limitations": [
+          "Static inspection did not load the assembly, resolve dependencies through a CLR, decompile C#, or execute target code."
+        ],
+        "unknowns": [
+          "Collection counts and pages cover producer-returned rows; metadata completeness remains the original metadata status and coverage, not an absence claim about unreturned rows.",
+          "Metadata tokens are build-local coordinates bound to the recorded artifact SHA-256 and module MVID; this view does not load or execute the assembly."
+        ],
+        "identity_scope": {
+          "token_identity": "build-local",
+          "requires_artifact_sha256": "69fc4103a4b511e139877c93d96db469a85f7dea44668c26e524e60bdfd95dcd",
+          "requires_mvid": "618639f1-711d-492b-bca7-7c66e7be687c"
+        },
+        "source_metadata_status": "complete",
+        "source_coverage": {
+          "state": "complete",
+          "issues": []
+        }
+      },
+      "confidence": "derived",
+      "authority": "shipped-artifact",
+      "environment": null,
+      "limitations": [
+        "Static inspection did not load the assembly, resolve dependencies through a CLR, decompile C#, or execute target code."
+      ],
+      "relationship_coverage": null,
+      "locations": [
+        {
+          "kind": "artifact-path",
+          "path": "C:\\Users\\mathe\\AppData\\Local\\Logos\\System\\Faithlife.ResourceToolbarHost.dll"
+        }
+      ],
+      "evidence_links": [
+        "ev_9129af4bb041819a3b325453321979e9e3144232f912bef92d9d51f6d29f4a60"
+      ]
+    },
+    {
+      "evidence_id": "ev_c3f09a1af3da8efe77e4863a2bc11138333ddf7eda6cb10f0a091833b1e12851",
+      "subject": {
+        "name": "logos-toolbar-analysis",
+        "digest": {
+          "sha256": "83934a97dfb326723e9a8fcf576277504494198afdf3149ffe8547d730f36260"
+        },
+        "local_path": "C:\\Users\\mathe\\OneDrive\\2026\\SISTEMA\\VERBUM\\.tools\\logos-toolbar-analysis",
+        "format": "directory",
+        "architecture": null
+      },
+      "provider": {
+        "id": "rea-analysis-view",
+        "name": "REA analysis view projection",
+        "version": "1"
+      },
+      "analysis_profile": null,
+      "predicate_type": "rea.analysis-view",
+      "operation": "inspect_analysis_view",
+      "parameters": {
+        "parent_evidence_id": "ev_10f1563f131a4052a088b20cb3bd7d92beef4465b5886f8cdd997dd28462cdfb",
+        "view": {
+          "kind": "summary"
+        }
+      },
+      "raw_result": null,
+      "normalized_result": {
+        "kind": "summary",
+        "view": {
+          "kind": "summary"
+        },
+        "parent_evidence_id": "ev_10f1563f131a4052a088b20cb3bd7d92beef4465b5886f8cdd997dd28462cdfb",
+        "parent_operation": "analyze_javascript_application",
+        "parent_digest": "10f1563f131a4052a088b20cb3bd7d92beef4465b5886f8cdd997dd28462cdfb",
+        "view_digest": "4241659bb7943515c38023f8823cd32d2a477ebf55f7b757405ad0077742c9cf",
+        "artifact": {
+          "path": "C:\\Users\\mathe\\OneDrive\\2026\\SISTEMA\\VERBUM\\.tools\\logos-toolbar-analysis",
+          "sha256": "83934a97dfb326723e9a8fcf576277504494198afdf3149ffe8547d730f36260"
+        },
+        "coverage": {
+          "status": "complete-within-view",
+          "examined": 134,
+          "total": 134,
+          "next_offset": null,
+          "exhausted": true
+        },
+        "limitations": [
+          "Alias selection expansion was conservatively bounded (maximum 512 additional selector states); selected paths remain unknown. Semantic alias-selections budget reached: semantic_precision.alias_selections=512 additional selector states (default 512). Increase semantic_precision.alias_selections on the next analysis call (analyze_javascript_application or analyze_web_bundle), or pass --semantic-precision JSON on the CLI; no REA restart is required. Worker memory, transfer and graph-retention limits remain independent. Cyclic or unsupported evaluations remain unknown regardless of budget.",
+          "Boundary extraction covers unshadowed JSON/global coercions plus parse and validation method candidates.",
+          "Caller-selected source analysis leaves 2 inventoried files outside analysis scope. Inventory identity covers the complete artifact; relationships through unselected sources remain unknown.",
+          "Child-process extraction covers asynchronous node:child_process creation, literal argv/env/stdio options, exit/error listeners, and kill signals.",
+          "CommonJS and ESM binding relationships were recovered from inert syntax and resolved only within the inventoried artifact container.",
+          "Configuration extraction covers process.env, process.argv, node:fs reads, and direct logical defaults.",
+          "Event extraction covers EventEmitter-style literal registrations, removals, and dispatch candidates; dynamic names remain unknown.",
+          "Function fingerprints are static candidates; equal digests can remain ambiguous and do not prove behavioral equivalence.",
+          "Graph coverage is incomplete; unavailable facts remain explicit and must not be read as absence.",
+          "JavaScript and HTML were parsed as inert text; bundle bootstrap code was never executed.",
+          "Local data flow does not claim control-flow-sensitive reaching definitions or arbitrary dynamic property resolution.",
+          "Promise ownership covers explicit unshadowed Promise construction, static factories, aggregation, chaining, and await syntax only.",
+          "Request extraction covers fetch, WebSocket, node:http/node:https construction, direct option fields, and exact local response consumers.",
+          "Resource extraction covers built-in filesystem/network acquisition and exact local close/destroy/end handles.",
+          "Semantic node retention reached max_semantic_nodes_per_file is 20000 (default 20000; an integer from 1 to 1000000). Set max_semantic_nodes_per_file on the next analyze_javascript_application call (CLI: --max-semantic-nodes-per-file). The change applies to that next analysis and does not restart the worker or the REA server. Raising it does not raise max_semantic_unknowns, max_heap_mb, transfer ceilings, or the parent result budget. Coverage reports the same effective values as semantic_graph_node_ceiling and semantic_graph_file_node_ceiling.",
+          "Static imports, entrypoints, workers, endpoints, and storage relationships do not prove runtime execution.",
+          "Static paths and relationships may remain unresolved when expressions are dynamic or obfuscated.",
+          "The semantic graph contains static syntax observations and conservative relationship candidates; it does not claim runtime execution.",
+          "Timer extraction covers global or node:timers scheduling and exact local-handle cancellation.",
+          "Webpack/Rspack factories were recovered from AST literals; REA did not invoke push handlers or bundle bootstrap code."
+        ],
+        "unknowns": [
+          "10283 semantic graph unknowns remain in the parent Evidence.",
+          "2 application graph unknowns remain in the parent Evidence.",
+          "Alias selection expansion was conservatively bounded (maximum 512 additional selector states); selected paths remain unknown. Semantic alias-selections budget reached: semantic_precision.alias_selections=512 additional selector states (default 512). Increase semantic_precision.alias_selections on the next analysis call (analyze_javascript_application or analyze_web_bundle), or pass --semantic-precision JSON on the CLI; no REA restart is required. Worker memory, transfer and graph-retention limits remain independent. Cyclic or unsupported evaluations remain unknown regardless of budget.",
+          "Boundary extraction covers unshadowed JSON/global coercions plus parse and validation method candidates.",
+          "Caller-selected source analysis leaves 2 inventoried files outside analysis scope. Inventory identity covers the complete artifact; relationships through unselected sources remain unknown.",
+          "Child-process extraction covers asynchronous node:child_process creation, literal argv/env/stdio options, exit/error listeners, and kill signals.",
+          "CommonJS and ESM binding relationships were recovered from inert syntax and resolved only within the inventoried artifact container.",
+          "Configuration extraction covers process.env, process.argv, node:fs reads, and direct logical defaults.",
+          "Event extraction covers EventEmitter-style literal registrations, removals, and dispatch candidates; dynamic names remain unknown.",
+          "Function fingerprints are static candidates; equal digests can remain ambiguous and do not prove behavioral equivalence.",
+          "Graph coverage is incomplete; unavailable facts remain explicit and must not be read as absence.",
+          "JavaScript and HTML were parsed as inert text; bundle bootstrap code was never executed.",
+          "Local data flow does not claim control-flow-sensitive reaching definitions or arbitrary dynamic property resolution.",
+          "Promise ownership covers explicit unshadowed Promise construction, static factories, aggregation, chaining, and await syntax only.",
+          "Request extraction covers fetch, WebSocket, node:http/node:https construction, direct option fields, and exact local response consumers.",
+          "Resource extraction covers built-in filesystem/network acquisition and exact local close/destroy/end handles.",
+          "Semantic node retention reached max_semantic_nodes_per_file is 20000 (default 20000; an integer from 1 to 1000000). Set max_semantic_nodes_per_file on the next analyze_javascript_application call (CLI: --max-semantic-nodes-per-file). The change applies to that next analysis and does not restart the worker or the REA server. Raising it does not raise max_semantic_unknowns, max_heap_mb, transfer ceilings, or the parent result budget. Coverage reports the same effective values as semantic_graph_node_ceiling and semantic_graph_file_node_ceiling.",
+          "Static imports, entrypoints, workers, endpoints, and storage relationships do not prove runtime execution.",
+          "Static paths and relationships may remain unresolved when expressions are dynamic or obfuscated.",
+          "The semantic graph contains static syntax observations and conservative relationship candidates; it does not claim runtime execution.",
+          "Timer extraction covers global or node:timers scheduling and exact local-handle cancellation.",
+          "Webpack/Rspack factories were recovered from AST literals; REA did not invoke push handlers or bundle bootstrap code.",
+          "graph.coverage.status is partial",
+          "semantic_graph.coverage.status is partial"
+        ],
+        "summary": {
+          "input_path": "C:\\Users\\mathe\\OneDrive\\2026\\SISTEMA\\VERBUM\\.tools\\logos-toolbar-analysis",
+          "format": "directory",
+          "root_artifact_sha256": "83934a97dfb326723e9a8fcf576277504494198afdf3149ffe8547d730f36260",
+          "source_selection": {
+            "requested_paths": [
+              "dist/resource-toolbar-host.js"
+            ],
+            "unselected_files": 2
+          },
+          "statistics": {
+            "relevant_files": 3,
+            "nested_asar_containers": 0,
+            "text_bytes_read": 231499,
+            "invalid_utf8_files": 0,
+            "parsed_javascript_files": 1,
+            "skipped_javascript_files": 0,
+            "visited_ast_nodes": 44220,
+            "findings": 431,
+            "modules": 48,
+            "parse_failures": 0
+          },
+          "electron": {
+            "browser_windows": 0,
+            "explicit_web_preferences": 0,
+            "preload_entrypoints": 0,
+            "context_bridge_apis": 0,
+            "exposed_api_members": 0,
+            "ipc": {
+              "operations": 0,
+              "literal_channels": 0,
+              "dynamic_channel_operations": 0,
+              "renderer_transmissions": 0,
+              "renderer_listeners": 0,
+              "main_handlers": 0,
+              "paired_renderer_transmissions": 0,
+              "ambiguous_renderer_transmissions": 0,
+              "unpaired_literal_renderer_transmissions": 0
+            },
+            "sender_validation_observations": 0,
+            "utility_processes": 0,
+            "resolved_utility_entrypoints": 0,
+            "native_addon_bindings": 0,
+            "resolved_native_addon_bindings": 0,
+            "protocol_registrations": 0,
+            "v8_cached_data_compilations": 0
+          },
+          "coverage": {
+            "static_sources": {
+              "sources": 3,
+              "unmeasured_sources": 0,
+              "syntax": {
+                "complete": 1,
+                "recovered": 0,
+                "failed": 0,
+                "not-examined": 2
+              },
+              "semantics": {
+                "unknown_sources": 1,
+                "unexamined_sources": 2
+              },
+              "examination": {
+                "complete": 0,
+                "limited": 1,
+                "not-examined": 2
+              },
+              "electron_applicability": {
+                "observed": 0,
+                "unknown": 3
+              }
+            },
+            "application": {
+              "status": "partial",
+              "truncated": false,
+              "omitted_count": null,
+              "limits": [
+                {
+                  "name": "javascript_semantic_alias_selections",
+                  "value": 512,
+                  "unit": "items"
+                }
+              ]
+            },
+            "semantic": {
+              "status": "partial",
+              "truncated": true,
+              "omitted_nodes": null,
+              "omitted_relations": null,
+              "limits": [
+                {
+                  "name": "max_semantic_nodes",
+                  "value": 100000,
+                  "unit": "items"
+                },
+                {
+                  "name": "max_semantic_nodes_per_file",
+                  "value": 20000,
+                  "unit": "items"
+                },
+                {
+                  "name": "semantic_graph_file_node_ceiling",
+                  "value": 20000,
+                  "unit": "items"
+                },
+                {
+                  "name": "semantic_graph_node_ceiling",
+                  "value": 100000,
+                  "unit": "items"
+                }
+              ],
+              "families": [
+                {
+                  "family": "boundary",
+                  "status": "partial",
+                  "retained_relations": 0,
+                  "omitted_relations": null,
+                  "unknown_count": 2
+                },
+                {
+                  "family": "call-flow",
+                  "status": "partial",
+                  "retained_relations": 998,
+                  "omitted_relations": null,
+                  "unknown_count": 2183
+                },
+                {
+                  "family": "child-process",
+                  "status": "partial",
+                  "retained_relations": 0,
+                  "omitted_relations": null,
+                  "unknown_count": 2
+                },
+                {
+                  "family": "closure",
+                  "status": "partial",
+                  "retained_relations": 2974,
+                  "omitted_relations": null,
+                  "unknown_count": 2
+                },
+                {
+                  "family": "configuration",
+                  "status": "partial",
+                  "retained_relations": 0,
+                  "omitted_relations": null,
+                  "unknown_count": 2
+                },
+                {
+                  "family": "data-flow",
+                  "status": "partial",
+                  "retained_relations": 15936,
+                  "omitted_relations": null,
+                  "unknown_count": 3376
+                },
+                {
+                  "family": "event",
+                  "status": "partial",
+                  "retained_relations": 0,
+                  "omitted_relations": null,
+                  "unknown_count": 2
+                },
+                {
+                  "family": "object-flow",
+                  "status": "partial",
+                  "retained_relations": 0,
+                  "omitted_relations": null,
+                  "unknown_count": 4700
+                },
+                {
+                  "family": "promise-ownership",
+                  "status": "partial",
+                  "retained_relations": 0,
+                  "omitted_relations": null,
+                  "unknown_count": 2
+                },
+                {
+                  "family": "request",
+                  "status": "partial",
+                  "retained_relations": 0,
+                  "omitted_relations": null,
+                  "unknown_count": 2
+                },
+                {
+                  "family": "resource-lifecycle",
+                  "status": "partial",
+                  "retained_relations": 0,
+                  "omitted_relations": null,
+                  "unknown_count": 2
+                },
+                {
+                  "family": "timer",
+                  "status": "partial",
+                  "retained_relations": 0,
+                  "omitted_relations": null,
+                  "unknown_count": 8
+                }
+              ]
+            },
+            "application_unknowns": 2,
+            "semantic_unknowns": 10283
+          },
+          "limitation_count": 20
+        }
+      },
+      "confidence": "derived",
+      "authority": "shipped-artifact",
+      "environment": null,
+      "limitations": [
+        "Alias selection expansion was conservatively bounded (maximum 512 additional selector states); selected paths remain unknown. Semantic alias-selections budget reached: semantic_precision.alias_selections=512 additional selector states (default 512). Increase semantic_precision.alias_selections on the next analysis call (analyze_javascript_application or analyze_web_bundle), or pass --semantic-precision JSON on the CLI; no REA restart is required. Worker memory, transfer and graph-retention limits remain independent. Cyclic or unsupported evaluations remain unknown regardless of budget.",
+        "Boundary extraction covers unshadowed JSON/global coercions plus parse and validation method candidates.",
+        "Caller-selected source analysis leaves 2 inventoried files outside analysis scope. Inventory identity covers the complete artifact; relationships through unselected sources remain unknown.",
+        "Child-process extraction covers asynchronous node:child_process creation, literal argv/env/stdio options, exit/error listeners, and kill signals.",
+        "CommonJS and ESM binding relationships were recovered from inert syntax and resolved only within the inventoried artifact container.",
+        "Configuration extraction covers process.env, process.argv, node:fs reads, and direct logical defaults.",
+        "Event extraction covers EventEmitter-style literal registrations, removals, and dispatch candidates; dynamic names remain unknown.",
+        "Function fingerprints are static candidates; equal digests can remain ambiguous and do not prove behavioral equivalence.",
+        "Graph coverage is incomplete; unavailable facts remain explicit and must not be read as absence.",
+        "JavaScript and HTML were parsed as inert text; bundle bootstrap code was never executed.",
+        "Local data flow does not claim control-flow-sensitive reaching definitions or arbitrary dynamic property resolution.",
+        "Promise ownership covers explicit unshadowed Promise construction, static factories, aggregation, chaining, and await syntax only.",
+        "Request extraction covers fetch, WebSocket, node:http/node:https construction, direct option fields, and exact local response consumers.",
+        "Resource extraction covers built-in filesystem/network acquisition and exact local close/destroy/end handles.",
+        "Semantic node retention reached max_semantic_nodes_per_file is 20000 (default 20000; an integer from 1 to 1000000). Set max_semantic_nodes_per_file on the next analyze_javascript_application call (CLI: --max-semantic-nodes-per-file). The change applies to that next analysis and does not restart the worker or the REA server. Raising it does not raise max_semantic_unknowns, max_heap_mb, transfer ceilings, or the parent result budget. Coverage reports the same effective values as semantic_graph_node_ceiling and semantic_graph_file_node_ceiling.",
+        "Static imports, entrypoints, workers, endpoints, and storage relationships do not prove runtime execution.",
+        "Static paths and relationships may remain unresolved when expressions are dynamic or obfuscated.",
+        "The semantic graph contains static syntax observations and conservative relationship candidates; it does not claim runtime execution.",
+        "Timer extraction covers global or node:timers scheduling and exact local-handle cancellation.",
+        "Webpack/Rspack factories were recovered from AST literals; REA did not invoke push handlers or bundle bootstrap code."
+      ],
+      "relationship_coverage": null,
+      "locations": [
+        {
+          "kind": "artifact-path",
+          "path": "C:\\Users\\mathe\\OneDrive\\2026\\SISTEMA\\VERBUM\\.tools\\logos-toolbar-analysis"
+        }
+      ],
+      "evidence_links": [
+        "ev_10f1563f131a4052a088b20cb3bd7d92beef4465b5886f8cdd997dd28462cdfb"
+      ]
+    }
+  ]
+}

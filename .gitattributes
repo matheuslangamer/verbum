@@ -1,0 +1,2 @@
+biblioteca/biblias/BHS-A-Strong.json filter=lfs diff=lfs merge=lfs -text
+biblioteca/biblias/WLC-OSHB.json filter=lfs diff=lfs merge=lfs -text

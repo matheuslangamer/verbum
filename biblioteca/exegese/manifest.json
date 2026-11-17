@@ -1,0 +1,31 @@
+[
+  {
+    "source": "MACULA Hebrew",
+    "revision": "47db250bd55d0d8577f2a94fba114ef16c35b23c",
+    "archiveSha256": "1b40dc1c711e07790c742ecbef8493ab1cda204623af9360f646fe1a13c216fd",
+    "chapters": 929,
+    "words": 475911,
+    "groups": 340101,
+    "license": "CC BY 4.0 for selected layers; component-specific credits",
+    "omitted": "MARBLE/SDBH semantic fields; no Portuguese alignment generated"
+  },
+  {
+    "source": "MACULA Greek",
+    "revision": "8423afe47b9e8f24b7772e808af45c7159a6fe7e",
+    "archiveSha256": "b60dc6279040df053004ec9fcd8284643d5bccd5fa86d8422db67dafce3819c9",
+    "chapters": 260,
+    "words": 137741,
+    "groups": 107706,
+    "license": "CC BY 4.0 for selected layers; component-specific credits",
+    "omitted": "MARBLE/SDBH semantic fields; no Portuguese alignment generated"
+  },
+  {
+    "source": "UBS HOTTP",
+    "revision": "a15a96cfaa4ca18a6c0339016645ba1e534db3c8",
+    "sha256": "209246ad04bb2c982495f5e45562f2bb752e0dc4a0e708919d238a5a95918c39",
+    "entries": 4515,
+    "license": "CC BY-SA 4.0",
+    "language": "English",
+    "references": "BBBCCCVVVSSWWW; reference scope retained, word positions not mapped"
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "id": "BHS-A-Strong",
+    "revision": "551e47ec27fb0ddfd66c8d754f4500b5890d6ecd",
+    "books": 39,
+    "verses": 23213,
+    "words": 426581,
+    "strongWords": 426581,
+    "morphologyWords": 0,
+    "notes": 0,
+    "sha256": "C5A036E30C56326AD260496222609D1F4D4BD4EF8E8F8030BCB49283B06ADC3B"
+  },
+  {
+    "id": "WLC-OSHB",
+    "revision": "d4265dfa93b78d82765a557e12d965528c17c1a9",
+    "books": 39,
+    "verses": 23213,
+    "words": 305507,
+    "strongWords": 299556,
+    "morphologyWords": 305507,
+    "notes": 1388,
+    "sha256": "F41A91DC9F9ED246CD5FFA85ABB1DB57CF503C03AF79C96AB54377ED830034D9"
+  },
+  {
+    "id": "SBLGNT",
+    "revision": "d7f35adca9ec410e1d1499c63b4dd989d76c8d4d",
+    "books": 27,
+    "verses": 7939,
+    "words": 137741,
+    "strongWords": 0,
+    "morphologyWords": 0,
+    "notes": 6934,
+    "sha256": "D395D629F0D468E688C6609D1A57862EFC4AAEF06100CFC46A710B8DEFBB5D0F"
+  }
+]

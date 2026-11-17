@@ -1,0 +1,30 @@
+{
+  "id": "DOC-MANUAL-GRAM",
+  "titulo": "Manual Prático de Sintaxe Bíblica (Grego Koiné & Hebraico Massorético)",
+  "autor": "Seminário Exegético SOMA",
+  "categoria": "Gramática & Filologia",
+  "idioma": "PT-BR",
+  "ano": "2026",
+  "descricao": "Guia de consulta rápida ao lado da Bíblia para análise de casos, aspecto verbal, Regra de Colwell, Regra de Granville Sharp e Binyanim.",
+  "capitulos": [
+    {
+      "id": "gr-1",
+      "titulo": "1. Regra de Colwell e Predicativos Anartros no Novo Testamento",
+      "ref": "JO 1:1",
+      "conteudo": "Formulada por E. C. Colwell (1933): 'Um substantivo predicativo definido que precede o verbo geralmente ocorre sem o artigo no Novo Testamento grego'. Quando um predicativo nominal precede o verbo de ligação (como θεὸς ἦν ὁ λόγος em Jo 1:1), a ausência do artigo destaca a qualidade/essência da categoria, sem torná-lo indefinido ('um deus')."
+    },
+    {
+      "id": "gr-2",
+      "titulo": "2. Aspecto Verbal no Grego Koiné: Presente, Aoristo e Perfeito",
+      "ref": "EF 2:8",
+      "conteudo": "O sistema verbal grego é governado primariamente pelo aspecto (Aktionsart):\n• Presente / Imperfeito: Aspecto imperfectivo/linear (ação vista em seu desenrolar interno).\n• Aoristo: Aspecto perfectivo/global (ação resumida como um evento completo, sem focar na duração).\n• Perfeito: Aspecto estativo/resultativo (ação concluída no passado cujos efeitos permanecem ativos no presente — ex.: ἐστε σεσῳσμένοι em Ef 2:8, 'estais em estado permanente de salvação')."
+    },
+    {
+      "id": "gr-3",
+      "titulo": "3. Como Identificar Rapidamente os 7 Binyanim Hebraicos",
+      "ref": "IS 53:5",
+      "conteudo": "1) Qal: Raiz simples sem prefixos de tronco (voz ativa simples).\n2) Niphal: Prefixo נִ no perfeito ou daguesh forte na 1ª radical no imperfeito (voz passiva/reflexiva).\n3) Piel: Daguesh forte na 2ª radical com vogal Hireq/Patach + Tsere (voz ativa intensiva/factitiva).\n4) Pual: Vogal Qibbuts (ֻ) sob a 1ª radical + daguesh forte na 2ª radical (passivo de Piel).\n5) Hiphil: Prefixo הִ / יַ com vogal longa Hireq-Yod (ִי) entre 2ª e 3ª radicais (causativo ativo).\n6) Hophal: Prefixo com vogal tipo 'o/u' (Qamets Chatuf ou Qibbuts) (passivo de Hiphil).\n7) Hithpael: Prefixo característico הִתְ + daguesh forte na 2ª radical (reflexivo/recíproco)."
+    }
+  ]
+}
+

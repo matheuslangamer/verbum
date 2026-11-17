@@ -1,0 +1,30 @@
+{
+  "id": "DOC-COMENT-JOAO",
+  "titulo": "Comentário Exegético do Prólogo de João e Cristologia do NT",
+  "autor": "Acervo Teológico SOMA",
+  "categoria": "Comentário Exegético",
+  "idioma": "PT-BR",
+  "ano": "2026",
+  "descricao": "Análise sintática, patrística e filológica do Logos (Jo 1:1-14), Kenosis (Fp 2:6) e Corpo de Cristo (1Co 12:27).",
+  "capitulos": [
+    {
+      "id": "cap-1",
+      "titulo": "1. O Logos Preexistente e o Predicativo Anartro em João 1:1",
+      "ref": "JO 1:1",
+      "conteudo": "Em João 1:1 (Ἐν ἀρχῇ ἦν ὁ λόγος, καὶ ὁ λόγος ἦν πρὸς τὸν θεόν, καὶ θεὸς ἦν ὁ λόγος), o evangelista emprega três verbos imperfeitos (ἦν) que contrastam com o aoristo ἐγένετο do v. 3 e v. 14. O imperfeito expressa existência contínua anterior à criação (cf. Gn 1:1).\n\nNa segunda cláusula, πρὸς τὸν θεόν com acusativo denota relação ativa e comunhão face a face com o Pai. Na terceira cláusula (καὶ θεὸς ἦν ὁ λόγος), θεός antecede o verbo sem artigo definido (anartro) para marcar sua natureza qualitativa ('o que Deus era, o Verbo era'), evitando tanto o modalismo/sabelianismo (que ocorreria se fosse ὁ θεός recíproco) quanto o arianismo (que reduziria o Logos a um ser criado)."
+    },
+    {
+      "id": "cap-2",
+      "titulo": "2. A Tenda da Encarnação (ἐσκήνωσεν) e a Shekinah em João 1:14",
+      "ref": "JO 1:14",
+      "conteudo": "Em João 1:14, o verbo σκηνόω ('armar tabernáculo', aoristo ingressivo ἐσκήνωσεν) cria uma ponte sonora e teológica com a raiz consonantal hebraica ש-כ-נ (š-k-n, de onde deriva Mishkan / Tabernáculo e Shekinah). A glória (δόξα, traduzindo כָּבוֹד kāḇôḏ na LXX) que antes enchia o Tabernáculo no deserto (Êx 40:34) agora habita visivelmente na carne assumida pelo Verbo eterno."
+    },
+    {
+      "id": "cap-3",
+      "titulo": "3. Morphe Theou (μορφῇ θεοῦ) e o Hino da Kenosis em Filipenses 2:6",
+      "ref": "FP 2:6",
+      "conteudo": "O particípio presente ὑπάρχων ('subsistindo continuamente por natureza') aliado a ἐν μορφῇ θεοῦ afirma a posse essencial dos atributos divinos antes e durante a encarnação. O substantivo ἁρπαγμός indica algo a ser retido com avidez para proveito próprio: Cristo não usou sua igualdade com Deus como vantagem egoísta, mas esvaziou-se assumindo a forma de servo (μορφὴν δούλου)."
+    }
+  ]
+}
+

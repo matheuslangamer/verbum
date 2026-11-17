@@ -1,0 +1,7 @@
+{
+  "bhsWords": 426581,
+  "alignedOshbWords": 417961,
+  "remainingWithoutOccurrenceParsing": 8620,
+  "emptyElidedSegments": 6448,
+  "rule": "same MT verse \u002B same consonants at the aligned position (ketiv/qere differences skipped) \u002B same vowel points (cantillation and holam-waw placement ignored); unmatched forms left empty"
+}

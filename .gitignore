@@ -1,0 +1,10 @@
+.tools/
+**/bin/
+**/obj/
+dist/
+backups/
+tmp/
+/*.exe
+*.user
+*.tmp
+biblioteca/livros/removidos/
